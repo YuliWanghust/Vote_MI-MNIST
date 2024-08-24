@@ -54,8 +54,8 @@ Images below show reproduce performance of learned generative models for differe
 Command : `python main.py --dim_z <each value of letent space> --num_epochs 60`
 
 |Input image|2-D latent space|
-|:---:|:---:|:---:|:---:|:---:|
-|<img src="github_images/input.jpg">|<img src="github_images/PRR_epoch_60_dim2.jpg">|
+|:---:|:---:|
+|<img src="github_images/input.jpg">|<img src="github_images/dim_z_2.jpg">|
 
 ### Denoising
 
