@@ -3,9 +3,10 @@
 This is an implementation of variational auto-encoder(VAE) for MNIST using Vote-MI
 
 ## Usage
-
+```
 conda create --name <env>
 pip install -r requriemtns.txt
+```
 
 ### requirements
 ```
@@ -79,7 +80,3 @@ Command : `python main.py --dim_z 2 --num_epochs 60`
 |<img src="results/PMLR_epoch_60.jpg">|<img src="results/PMLR_map_epoch_60.jpg">|
 
 ## Reference
-
-The implementation is based on 
-* https://github.com/hwalsuklee/tensorflow-mnist-VAE
-* [Auto-Encoding Variational Bayes](https://arxiv.org/pdf/1312.6114.pdf)
