@@ -61,14 +61,14 @@ Command : `python main.py --dim_z 2 --num_epochs 100`
 |:---:|:---:|:---:|
 |<img src="github_images/PMLR_epoch_1.PNG">|<img src="github_images/PMLR_epoch_40.PNG">|<img src="github_images/PMLR_epoch_100.PNG">|
 
-### Denoising
+### After finishing the VAE training
 
-VAE can reduce noise and restore original input images if noise is added to input images when training.
+You will have the following files under the folder of `results` and `model`:
 
-Command : `python main.py --dim_z 20 --add_noise True --num_epochs 60`
-|Original Input image|Input image with noise|Restored image via VAE|
-|:---:|:---:|:---:|
-|<img src="results/input.jpg">|<img src="results/input_noise.jpg">|<img src="results/PRR_epoch_60_dim20_denoising.jpg">|
+In `results`
+*
+
+
 
 ### Learned MNIST manifold
 
