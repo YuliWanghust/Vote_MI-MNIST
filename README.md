@@ -3,7 +3,7 @@
 This is an implementation of variational auto-encoder(VAE) for MNIST using Vote-MI
 
 ## Usage
-Recommend to use Python==3.8.18
+Recommend to use Python==3.8.18 or later version
 
 ```
 conda create --name <env>
