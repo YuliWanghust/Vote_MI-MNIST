@@ -86,11 +86,11 @@ You can see two results, when Vote-MI implemented:
 
 |Original latent space v.s. Clustered Latent space using DBSCAN|
 |:---:|
-|<img src="github_images/input.jpg">|
+|<img src="github_images/Cluster.jpg">|
 
 |Selected points from random samples v.s. Selected points from Vote-MI|
 |:---:|
-|<img src="github_images/input.jpg">|
+|<img src="github_images/selected.jpg">|
 
 
 ## Reference
