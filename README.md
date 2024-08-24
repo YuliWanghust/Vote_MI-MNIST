@@ -92,5 +92,14 @@ You can see two results, when Vote-MI implemented:
 |:---:|
 |<img src="github_images/selected.png">|
 
+### After finishing the Vote-MI selection
 
-## Reference
+You will have the following files under the folder of `images`:
+
+Under `images` folder:
+
+* `image_folder` : all images before the selection.
+* `selected_image_folder` : representative images from Vote-MI
+* `.excel`: latent space information, category and GT label for the selected images
+
+## Downstream tasks
