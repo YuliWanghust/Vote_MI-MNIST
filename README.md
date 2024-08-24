@@ -7,7 +7,7 @@ Recommend to use Python==3.8.18
 
 ```
 conda create --name <env>
-pip install -r requriemtns.txt
+pip install -r requirements.txt
 ```
 
 ### requirements
