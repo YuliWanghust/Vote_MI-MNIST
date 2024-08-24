@@ -103,3 +103,5 @@ Under `images` folder:
 * `.excel`: latent space information, category and GT label for the selected images
 
 ## Downstream tasks
+
+The selected images can be used for a variety of downstream tasks then.
