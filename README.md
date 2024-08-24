@@ -10,7 +10,7 @@ conda create --name <env>
 pip install -r requirements.txt
 ```
 
-### requirements
+### The requirements should at least include...
 ```
 tensorflow >= 2.0
 numpy
