@@ -41,7 +41,7 @@ python main.py --[argument] <value>
 
 * `--PMLR_z_range` : Rnage for uniformly distributed latent. *Default* : `2.0`
 * `--PMLR_n_samples` : Number of samples in order to get distribution of labeled data. *Default* : `5000`
-* `--model_dir' : Directory to save the trained model. *Default* : `model`
+* `--model_dir` : Directory to save the trained model. *Default* : `model`
 
 ## Results
 
