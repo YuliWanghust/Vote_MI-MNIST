@@ -66,7 +66,8 @@ Command : `python main.py --dim_z 2 --num_epochs 100`
 You will have the following files under the folder of `results` and `model`:
 
 In `results`
-*
+
+* `--dim_z` : Dimension of latent vector. *Default* : `4`
 
 
 
