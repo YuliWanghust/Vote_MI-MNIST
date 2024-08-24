@@ -59,7 +59,7 @@ Command : `python main.py --dim_z 2 --num_epochs 100`
 
 |2-D latent space (epoch 1)|2-D latent space (epoch 40)|2-D latent space (epoch 100)|
 |:---:|:---:|:---:|
-|<img src="github_images/PMLR_map_epoch_01.pdf">|<img src="github_images/PMLR_map_epoch_20.pdf">|<img src="github_images/PMLR_map_epoch_100.pdf">|
+|<img src="github_images/PMLR_epoch_01.png">|<img src="github_images/PMLR_epoch_40.png">|<img src="github_images/PMLR_epoch_100.png">|
 
 ### Denoising
 
