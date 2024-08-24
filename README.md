@@ -45,17 +45,21 @@ python main.py --[argument] <value>
 
 ## Results
 
-### Reproduce
+### VAE Training
 
 Well trained VAE must be able to reproduce input images.
 
-Images below show reproduce performance of learned generative models for different dimensionalities.
+Images below show the performance of learned generative models for dimensionality dim_z=2.
 
-Command : `python main.py --dim_z <each value of letent space> --num_epochs 60`
+Command : `python main.py --dim_z 2 --num_epochs 100`
 
-|Input image|2-D latent space|
+|Input image|Reconstructed image from 2-D latent space|
 |:---:|:---:|
 |<img src="github_images/input.jpg">|<img src="github_images/dim_z_2.jpg">|
+
+|2-D latent space (epoch 1)|2-D latent space (epoch 40)|2-D latent space (epoch 100)|
+|:---:|:---:|:---:|
+|<img src="github_images/PMLR_map_epoch_1.pdf">|<img src="github_images/PMLR_map_epoch_20.pdf">|<img src="github_images/PMLR_map_epoch_100.pdf">|
 
 ### Denoising
 
