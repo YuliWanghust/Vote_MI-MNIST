@@ -51,7 +51,7 @@ Well trained VAE must be able to reproduce input images.
 
 Images below show the performance of learned generative models for dimensionality dim_z=2.
 
-Command : `python main.py --dim_z 2 --num_epochs 100`
+Command : `python main.py --dim_z 2 --num_epochs 100 --model_dir model`
 
 |Input image|Reconstructed image from 2-D latent space|
 |:---:|:---:|
@@ -76,17 +76,21 @@ Under `model` folder:
 * `vae_encoder_weights.h5`: trained VAE weights of the encoder part
 
 
+### Implement Vote-MI
 
-### Learned MNIST manifold
+After the VAE model is trained, we then implement Vote-MI on the latent space of VAE
 
-VAE can learn data manifold via generative models with 2-dim.
+Command : `python inference.py --dim_z 2 --num_epochs 10 --model_dir model`
 
-If dimension of z is 2, images for visualization of learned data manifold should be generated.
+You can see two results, when Vote-MI implemented:
 
-Command : `python main.py --dim_z 2 --num_epochs 60`
+|Original latent space v.s. Clustered Latent space using DBSCAN|
+|:---:|
+|<img src="github_images/input.jpg">|
 
-|Learned MNIST manifold|Distribution of labeled data|
-|:---:|:---:|
-|<img src="results/PMLR_epoch_60.jpg">|<img src="results/PMLR_map_epoch_60.jpg">|
+|Selected points from random samples v.s. Selected points from Vote-MI|
+|:---:|
+|<img src="github_images/input.jpg">|
+
 
 ## Reference
