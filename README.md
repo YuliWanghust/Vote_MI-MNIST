@@ -65,9 +65,15 @@ Command : `python main.py --dim_z 2 --num_epochs 100`
 
 You will have the following files under the folder of `results` and `model`:
 
-In `results`
+Under `results` folder:
 
-* `--dim_z` : Dimension of latent vector. *Default* : `4`
+* `PMLR_map_epoch_XX.pdf` : Latent space plotting for each epoch.
+* `PMLR_map_epoch_XX.csv` : MNIST testing set projected points in latent space for each epoch
+* `PRR_epoch_XX.jpg`: Example of reconstructed images from trained VAE for epoch
+
+Under `model` folder:
+* `vae_decoder_weights.h5`: trained VAE weights of the decoder part
+* `vae_encoder_weights.h5`: trained VAE weights of the encoder part
 
 
 
