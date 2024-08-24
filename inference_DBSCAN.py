@@ -235,7 +235,7 @@ def main(args):
     # plot_reconstructed_images(vae, x_test)
 
     # Load the provided CSV file
-    file_path = r'E:\Yuli\Projects\FM\FM_selection\VAE-mnist-tf-main\results\PMLR_map_epoch_75.csv'
+    file_path = r'E:\Yuli\Projects\FM\FM_selection\Vote_MI-MNIST-main\results\PMLR_map_epoch_75.csv'
     data = pd.read_csv(file_path)
 
     # Extract the relevant columns for clustering
