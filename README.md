@@ -37,7 +37,7 @@ python main.py --[argument] <value>
 * `--n_hidden` : The number of hidden units in MLP. *Default* : `500`
 * `--learning_rate` : Learning rate of adam optimizer. *Default* : `1e-3`
 * `--num_epochs` : The number of epochs to run. *Default* : `40`
-* `--batch_size` : Batch size. *Default* : `128`
+* `--batch_size` : Batch size. *Default* : `64`
 
 * `--PRR_n_img_x` : Number of images along x-axis. *Default* : `10`
 * `--PRR_n_img_y` : Number of images along y-axis. *Default* : `10`
@@ -45,6 +45,7 @@ python main.py --[argument] <value>
 * `--PMLR_n_img_y` : Number of images along y-axis. *Default* : `20`
 * `--PMLR_z_range` : Rnage for uniformly distributed latent. *Default* : `2.0`
 * `--PMLR_n_samples` : Number of samples in order to get distribution of labeled data. *Default* : `5000`
+* `--model_dir' : Directory to save the trained model. *Default* : `model`
 
 ## Results
 
